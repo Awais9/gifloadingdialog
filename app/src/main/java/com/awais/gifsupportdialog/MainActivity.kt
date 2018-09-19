@@ -15,10 +15,10 @@ class MainActivity : AppCompatActivity() {
         /*show the dialog where you want*/
         loadingDialog.showDialog()
         /*hide the dialog when it is not needed*/
-        loadingDialog.hideDialog()
+//        loadingDialog.hideDialog()
         /*you can change your local gif image*/
 //        loadingDialog.currentDrawable = R.drawable.test
         /*you can change image by string url (link)*/
-        loadingDialog.gifURL = "https://media.giphy.com/media/BYyLhBtSVgl2w/giphy.gif"
+//        loadingDialog.gifURL = "https://media.giphy.com/media/BYyLhBtSVgl2w/giphy.gif"
     }
 }
