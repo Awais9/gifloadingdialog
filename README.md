@@ -15,7 +15,7 @@ allprojects {
 }
 And now add dependency for library in your app gradle file
 
-implementation 'com.github.Awais9:gifloadingdialog:v1.0'
+    implementation 'com.github.Awais9:gifloadingdialog:v1.0'
 
 # How to use?
 
