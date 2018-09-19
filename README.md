@@ -1,5 +1,5 @@
 # Gif Loading Dialog
-A utility library to facilitate developers to show the loading dialog with gif images support
+A utility library to facilitate developers to show the loading dialog with gif images support.
 It is a singleton class to show the dialog where ever you want. Here is the screeshot 
 
 <br> <img src="screenshot/loading_screen.gif" width="200" height="350" > </br>
@@ -22,7 +22,7 @@ And now add dependency for library in your app gradle file
 
 I use glide library for loading the gif images. It works for both static and gif images.
 
-In your activity/fragment just make instanace of it's dialog and use according to your needs.
+In your activity/fragment just make instance of it's dialog and use according to your need.
 
     /*create the instance for loading dialog which is singleton*/
     val loadingDialog = LoadingDialog.getInstance(this)
