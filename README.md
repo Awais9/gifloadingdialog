@@ -23,20 +23,20 @@ I use glide library for loading the gif images. It works for both static and gif
 
 In your activity/fragment just make instanace of it's dialog and use according to your needs.
 
-/*create the instance for loading dialog which is singleton*/
-val loadingDialog = LoadingDialog.getInstance(this)
-        
-/*show the dialog where you want*/
-loadingDialog.showDialog()
-        
-/*hide the dialog when it is not needed*/
-loadingDialog.hideDialog()
-        
-/*you can change your local gif image*/
-loadingDialog.currentDrawable = R.drawable.test
-        
-/*you can change image by string url (link)*/
-loadingDialog.gifURL = "https://media.giphy.com/media/BYyLhBtSVgl2w/giphy.gif"
+    /*create the instance for loading dialog which is singleton*/
+    val loadingDialog = LoadingDialog.getInstance(this)
+
+    /*show the dialog where you want*/
+    loadingDialog.showDialog()
+
+    /*hide the dialog when it is not needed*/
+    loadingDialog.hideDialog()
+
+    /*you can change your local gif image*/
+    loadingDialog.currentDrawable = R.drawable.test
+
+    /*you can change image by string url (link)*/
+    loadingDialog.gifURL = "https://media.giphy.com/media/BYyLhBtSVgl2w/giphy.gif"
 
 LoadingDialog is singleton class for custom dialog.
 It have flexibilities to set your own static gif or image from local drawable or from remote link as showing above. 
