@@ -8,11 +8,12 @@ It is a singleton class to show the dialog where ever you want. Here is the scre
 
 Add following into your main project gradle file
 
-allprojects {
-    repositories {
-        maven { url 'https://jitpack.io' }
+    allprojects {
+        repositories {
+            maven { url 'https://jitpack.io' }
+        }
     }
-}
+
 And now add dependency for library in your app gradle file
 
     implementation 'com.github.Awais9:gifloadingdialog:v1.0'
