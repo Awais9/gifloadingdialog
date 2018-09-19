@@ -2,7 +2,7 @@
 A utility library to facilitate developers to show the loading dialog with gif images support
 It is a singleton class to show the dialog where ever you want. Here is the screeshot 
 
-<br> <img src="screenshot/loading_screen.gif" width="200" height="400" > </br>
+<br> <img src="screenshot/loading_screen.gif" width="200" height="350" > </br>
 
 # Add as dependency
 
