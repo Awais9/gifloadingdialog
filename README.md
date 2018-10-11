@@ -17,7 +17,7 @@ Add following into your main project gradle file
 And now add dependency for library in your app gradle file
 
     	dependencies {
-	        implementation 'com.github.Awais9:gifloadingdialog:v1.2.1'
+	        implementation 'com.github.Awais9:gifloadingdialog:v1.2.2'
 	}
 
 
