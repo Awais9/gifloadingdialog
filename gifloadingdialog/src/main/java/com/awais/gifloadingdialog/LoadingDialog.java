@@ -37,13 +37,13 @@ public class LoadingDialog {
         GlideDrawableImageViewTarget imageViewTarget = new GlideDrawableImageViewTarget(gifImageView);
         if (getGifURL().equals("")) {
             if (getCurrentDrawable() == -1) {
-                Glide.with(context).load(R.drawable.loading_circle_img).into(imageViewTarget);
+                Glide.with(context).load(R.drawable.loading_smile).into(imageViewTarget);
             } else {
                 Glide.with(context).load(getCurrentDrawable()).into(imageViewTarget);
             }
         } else {
             Glide.with(context).load(getGifURL())
-                    .placeholder(R.drawable.loading_circle_img)
+                    .placeholder(R.drawable.loading_smile)
                     .diskCacheStrategy(DiskCacheStrategy.SOURCE)
                     .crossFade(500)
                     .into(imageViewTarget);
